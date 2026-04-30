@@ -298,7 +298,6 @@ body {
   resize();
   window.addEventListener('resize', resize);
 
-  /* Stars */
   const STAR_COUNT = 160;
   const stars = [];
   for(let i = 0; i < STAR_COUNT; i++){
@@ -312,7 +311,6 @@ body {
     });
   }
 
-  /* Floating orbs */
   const ORB_COLORS = [
     'rgba(93,158,49,', 'rgba(71,201,107,', 'rgba(198,120,255,',
     'rgba(255,215,0,', 'rgba(88,101,242,'
@@ -330,7 +328,6 @@ body {
     });
   }
 
-  /* Drifting pixel particles */
   const PIX_COLS = ['#5D9E31','#7DC940','#FFD700','#47C96B','#C678FF','#fff','#5865F2'];
   const PIXELS = [];
   function spawnPixel(){
@@ -349,7 +346,6 @@ body {
   }
   for(let i = 0; i < 28; i++) PIXELS.push(spawnPixel());
 
-  /* Shooting stars */
   let shooters = [];
   setInterval(() => {
     shooters.push({
@@ -445,33 +441,33 @@ const steps = [
     title: "👋 Welcome to the MediaFire Download Guide",
     body: `<p>This guide shows you how to safely download Minecraft content from <strong>MediaFire</strong> — one of the most common file hosts for add‑ons, maps, and mods.</p>
            <p style="margin-top:12px;">Use the <strong>Next</strong> and <strong>Previous</strong> buttons to move through the steps.</p>`,
-    miaTip: "🌿 <strong>MIA Helps:</strong> MIA only shares direct MediaFire links — no ad‑wrapped or fake links."
+    miaTip: "🦁 <strong>Brave Browser Tip:</strong> Use the <strong>Brave browser</strong> for a cleaner, ad‑free experience. It automatically blocks most ads on download pages. MediaFire doesn't usually open extra tabs, but Brave still makes the process safer and faster. You can skip this if you already use an ad‑blocker."
   },
   {
     title: "🔗 Step 1: Open the MediaFire Link",
     body: `<p>Click the MediaFire link provided by MIA or the creator. You'll land on a page showing the file name and a download button. Make sure you're on the real <strong>mediafire.com</strong> domain.</p>
            <div class="callout info"><span class="callout-icon">ℹ️</span><span>MIA removes extra ad layers — so you land directly on the file page.</span></div>`,
-    miaTip: "🌿 <strong>MIA Helps:</strong> Every MediaFire link in MIA is cleaned and verified."
+    miaTip: "🦁 <strong>Brave Browser Tip:</strong> Use the <strong>Brave browser</strong> for a cleaner, ad‑free experience. It automatically blocks most ads on download pages. MediaFire doesn't usually open extra tabs, but Brave still makes the process safer and faster. You can skip this if you already use an ad‑blocker."
   },
   {
     title: "👀 Step 2: Spot the Real Download Button",
     body: `<p>MediaFire pages often have ads disguised as download buttons. The real one is a <strong>large colored button</strong> right below the file name, often labelled "Download" or "Download (xx MB)".</p>
            <p style="margin-top:8px;">Avoid anything that says “Play”, “Start”, or flashy “Download Now” banners — those are ads.</p>
            <div class="callout warn"><span class="callout-icon">⚠️</span><span>If a pop‑up or new tab opens, close it immediately. The real download never asks you to install extra software.</span></div>`,
-    miaTip: "🌿 <strong>MIA Helps:</strong> Not sure which button? MIA's guides help you spot the real one instantly."
+    miaTip: "🦁 <strong>Brave Browser Tip:</strong> Use the <strong>Brave browser</strong> for a cleaner, ad‑free experience. It automatically blocks most ads on download pages. MediaFire doesn't usually open extra tabs, but Brave still makes the process safer and faster. You can skip this if you already use an ad‑blocker."
   },
   {
     title: "⬇️ Step 3: Click the Download Button",
     body: `<p>Click the genuine download button once. Your browser will either start the download automatically or ask you where to save the file.</p>
            <p>The file is usually a <strong>.mcpack</strong>, <strong>.mcaddon</strong>, <strong>.mcworld</strong>, <strong>.zip</strong>, or <strong>.jar</strong>.</p>
            <div class="callout tip"><span class="callout-icon">💡</span><span>If nothing happens, check your browser's download bar. Sometimes a simple captcha appears — just complete it and the download continues.</span></div>`,
-    miaTip: "🌿 <strong>MIA Helps:</strong> MIA links avoid captchas most of the time, but if one appears, it's normal and safe."
+    miaTip: "🦁 <strong>Brave Browser Tip:</strong> Use the <strong>Brave browser</strong> for a cleaner, ad‑free experience. It automatically blocks most ads on download pages. MediaFire doesn't usually open extra tabs, but Brave still makes the process safer and faster. You can skip this if you already use an ad‑blocker."
   },
   {
     title: "📂 Step 4: Locate the Downloaded File",
     body: `<p>On mobile, open your file manager (like <strong>ZArchiver</strong>). On PC, open your <strong>Downloads</strong> folder. The file should be right there.</p>
            <p>Quick check: confirm the file extension matches what you expected — e.g., .mcpack, .zip, etc.</p>`,
-    miaTip: "🌿 <strong>MIA Helps:</strong> MIA always lists the correct file type in the post, so you can verify you got the right file."
+    miaTip: "🦁 <strong>Brave Browser Tip:</strong> Use the <strong>Brave browser</strong> for a cleaner, ad‑free experience. It automatically blocks most ads on download pages. MediaFire doesn't usually open extra tabs, but Brave still makes the process safer and faster. You can skip this if you already use an ad‑blocker."
   },
   {
     title: "🎮 Step 5: Import & Install",
@@ -481,7 +477,7 @@ const steps = [
              <li><strong>Java:</strong> Place the file in the correct .minecraft folder manually.</li>
            </ul>
            <p style="margin-top:12px;">For a complete, step‑by‑step guide covering both editions, click the yellow button below. It details every file type in detail.</p>`,
-    miaTip: "🌿 <strong>MIA Helps:</strong> Need extra help? Join the MIA Discord — our community can assist with installation and troubleshooting."
+    miaTip: "🦁 <strong>Brave Browser Tip:</strong> Use the <strong>Brave browser</strong> for a cleaner, ad‑free experience. It automatically blocks most ads on download pages. MediaFire doesn't usually open extra tabs, but Brave still makes the process safer and faster. You can skip this if you already use an ad‑blocker."
   }
 ];
 
